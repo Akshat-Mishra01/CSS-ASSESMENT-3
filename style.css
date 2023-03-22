@@ -1,0 +1,137 @@
+body
+{
+    background-color: dimgrey;
+}
+.welcome
+{
+    color: rgb(45, 7, 7);
+    background-color: white;
+    border: 3px solid red;
+    border-radius: 20px;
+    width: 400px;
+    height: 180px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px rgb(112, 21, 76);
+    text-shadow: 5px 5px 5px rgb(112, 21, 76);
+    /* position: absolute;
+    top:10px;
+    left:50px */
+    margin-left: 500px;
+}
+
+.container
+{
+    border: 10px solid green;
+    height: 600px;
+}
+
+
+.box
+{
+    color: rgb(45, 7, 7);
+    background-color: white;
+    border: 3px solid red;
+    border-radius: 20px;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px rgb(112, 21, 76);
+    text-shadow: 5px 5px 5px rgb(112, 21, 76);
+   font-weight: bold;
+}
+
+.property1
+{
+position: absolute;
+top: 600px;   
+}
+.property2
+{
+    position: absolute;
+    top: 230px;
+    left: 1100px;
+   
+    padding:5px ;
+
+}
+.property3
+{
+    position: absolute;
+    top: 600px;
+    left: 1100px;
+
+}
+
+.sticky
+{
+    color: red;
+    background-color: greenyellow;
+    border: 4px solid red;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(112, 21, 76) ;
+    position: sticky;
+    bottom: 80px;
+    left: 540px;
+    width: 500px;
+    height: 100px;
+    z-index: 5; 
+    display: flex;
+}
+
+.left
+{
+    padding: 0px 40px;
+}
+
+.right
+{
+    margin-left: 50px;
+}
+
+.container2
+{
+    background-color: green;
+    border: 5px solid purple;
+    width: 700px;
+    margin: 10px;
+    margin-left: 430px;
+    text-align: center;
+   
+}
+
+.color
+{
+    background-color:rgb(241, 241, 133);
+}
+
+.item1
+{
+   width: 320px;
+    height: 180px;
+    line-height: 20px;
+    padding: 10px; 
+    float: left;
+}
+.item2
+{
+     position: absolute;
+    left: 800px;
+    top: 920px;
+    width: 320px;
+    height: 180px;
+    line-height: 20px;
+    padding: 10px;
+    float: right;
+}
+    
+.item3
+{
+    
+    line-height: 30px;
+    width: 705px;
+   
+}
